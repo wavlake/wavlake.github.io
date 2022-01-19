@@ -34,7 +34,7 @@ This is your LND's **hostname** (everything up to and including the .onion part)
 
 ## 2. TLS Cert
 
-A certificate file is automatically generated when you first start up your Umbrel and LND. However, it most likely does not contain the .onion address we will be using to connect Wavlake to your node.
+The certificate file helps ensure that the connection between Wavlake and your Umbrel node is [relatively secure](https://docs.lightning.engineering/lightning-network-tools/lnd/safety#tls). A certificate file is automatically generated when you first start up your Umbrel and LND. However, it most likely does not contain the .onion address we will be using to connect Wavlake to your node.
 
 In order to add the .onion host to the certificate file, we have to add one line to LND's configuration file and then restart the Umbrel so that the certificate is re-generated with the .onion hostname included.
 
@@ -104,13 +104,13 @@ In the event something went wrong or LND won't start, double-check the conf file
 
 The last item we need is a macaroon, which is a kind of key that allows you to perform specific actions on your LND instance. In order to give Wavlake only the minimum permissions needed to work with the site, we are going to custom "bake" a macaroon with those specific permissions only.
 
-The simplest way to create a macaroon is by using the Thunderhub client. This is an app that is available on your Umbrel OS. If you haven't installed it already, do so now.
+The simplest way to create a macaroon is by using the ThunderHub client. This is an app that is available on your Umbrel OS. If you haven't installed it already, do so now.
 
 {% hint style="info" %}
 You can also create the macaroon via the command line if you find that easier. The command is listed at the bottom of this section.
 {% endhint %}
 
-Log into the Thunderhub client and click on the "Tools" section in the left-hand navigation pane.
+Log into the ThunderHub client and click on the "Tools" section in the left-hand navigation pane.
 
 ![](../.gitbook/assets/thub.png)
 
@@ -120,7 +120,7 @@ Slide the following options to "Yes" (a visual guide is below): Create Invoices,
 
 ![  ](../.gitbook/assets/thub2.png)
 
-Thunderhub should display two versions of your newly baked macaroon. We want to use the "HEX" version. Copy the text for the HEX version of your macaroon and store it on your notepad.
+ThunderHub should display two versions of your newly baked macaroon. We want to use the "HEX" version. Copy the text for the HEX version of your macaroon and store it on your notepad.
 
 The equivalent command line version of creating the macaroon is below:
 
@@ -158,6 +158,6 @@ You should now see that the "Test Connection" button has been enabled on the pag
 
 Once the connection has been verified, the "Add Track" button should be enabled on your dashboard. You may now begin uploading tracks!
 
-For more information about how plays and tips work, please see the Mechanics page.
+For more information about how plays and tips work, please see the [Mechanics](../mechanics.md) page.
 
 If you ran into any issues along the way, send us a message at contact@wavlake.com and we will try and help you out the best we can.
