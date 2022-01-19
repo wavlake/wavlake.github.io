@@ -8,7 +8,7 @@ The following is an overview of how Wavlake works, from its decentralized paymen
 
 Wavlake enables artists to receive Bitcoin payments over the Lightning network in exchange for their music. The diagram above gives an overview of how this works.
 
-Every artist/label/music owner that registers a Lightning node with Wavlake grants the site the ability to create invoices on the owner's behalf. When a listener wants to make a payment to the artist, the site connects with the owner's node and creates an invoice. The site then shares that payment request with the listener and monitor's the owner's node for when the payment has been received.
+Every artist/label/music owner that registers a Lightning node with Wavlake grants the site the ability to create invoices on the owner's behalf. When a listener wants to make a payment to the artist, the site connects with the owner's node and creates an invoice. The site then shares that payment request with the listener and monitors the owner's node for when the payment has been received.
 
 {% hint style="info" %}
 Fees are collected automatically by the site by redirecting tips to Wavlake until the fee amount for the current period has been redeemed. After that payments are directed back to the artist until the next fee period.
