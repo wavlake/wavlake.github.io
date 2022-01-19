@@ -1,6 +1,6 @@
 # Mechanics
 
-The following is an overview of how Wavlake works, from its decentralized payment design as well as the playing and tipping mechanism.
+The following is an overview of how Wavlake works, from its decentralized payment design to its playing and tipping mechanism.
 
 ## Architecture
 
