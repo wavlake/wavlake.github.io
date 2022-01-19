@@ -2,10 +2,6 @@
 
 The following is an overview of how Wavlake works, from its decentralized payment design as well as the playing and tipping mechanism.
 
-{% hint style="info" %}
-Because the site is iterating rapidly, portions of this document may become inaccurate before we have time to update it. Please raise any issues you may find on the Github repo for these docs.
-{% endhint %}
-
 ## Architecture
 
 ![](<.gitbook/assets/Wavlake High-Level Design.png>)
