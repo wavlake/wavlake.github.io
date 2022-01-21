@@ -74,7 +74,7 @@ Using the arrow keys on your keyboard, move the cursor to this line and add a se
 
 > tlsextradomain=umbrel.local
 >
-> tlsextradomain=jfdsaoj930nglamljafafklajsdkfjdskafdsa9.onion:10009
+> tlsextradomain=jfdsaoj930nglamljafafklajsdkfjdskafdsa9.onion
 
 Be sure to spell and enter everything accurately, otherwise you may have issues with LND starting and/or capturing the new configuration.
 
