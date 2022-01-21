@@ -86,7 +86,7 @@ Restart your Umbrel (you can do this via the "Settings" section of the Web UI).
 
 
 
-Once your Umbrel is up and running again, go back to your Terminal and run the following command to download the newly generated tls.cert file to your computer:
+Once your Umbrel is up and running again, go back to your Terminal. Do not log back into your Umbrel for this next step, this command should be run on your local machine. Run the following command to download the newly generated tls.cert file to your computer:
 
 ```
 scp umbrel@umbrel.local:/home/umbrel/umbrel/lnd/tls.cert ./umbrel.cert
