@@ -30,3 +30,5 @@ The way to unlock free plays is to send the artist a tip for it. Currently, the 
 
 One way to think about this mechanism is to compare it to a jukebox, except on the internet. You put a coin in the jukebox, it plays a song for everyone in the bar. In the case of Wavlake, a listener's payment not only helps support the artist directly but also helps promote the track to other listeners because tips will push the track's ranking higher.
 
+The "Power" bar for each track gives an indication of how many free plays remain for the track. When the bar is empty, all the free plays have been used and someone must tip the track in order to unlock it again.
+
