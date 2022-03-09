@@ -15,3 +15,7 @@ If you come across an issue, please reach out at contact@wavlake.com
 {% content-ref url="voltage.md" %}
 [voltage.md](voltage.md)
 {% endcontent-ref %}
+
+{% content-ref url="raspiblitz.md" %}
+[raspiblitz.md](raspiblitz.md)
+{% endcontent-ref %}
