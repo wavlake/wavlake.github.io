@@ -49,9 +49,9 @@ The simplest way to create a macaroon is by using the ThunderHub client. Find th
 
 On the Tools page, you should see a "Bakery" section. Click on the "Bake" button and you will see a list of options appear.
 
-Slide the following options to "Yes" (a visual guide is below): Create Invoices, Get Invoices, Get Wallet Info, Sign Messages, Verify Messages. Then click "Bake new macaroon".
+Slide the following options to "Yes" (a visual guide is below): Create Invoices, Get Invoices, Get Wallet Info. Then click "Bake new macaroon".
 
-![  ](../.gitbook/assets/thub2.png)
+![](<../.gitbook/assets/Screen Shot 2022-04-01 at 11.12.46 PM.png>)
 
 ThunderHub should display two versions of your newly baked macaroon. We want to use the "HEX" version. Copy the text for the HEX version of your macaroon and store it on your notepad.
 
