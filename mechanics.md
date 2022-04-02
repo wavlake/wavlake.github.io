@@ -12,12 +12,6 @@ Every artist/label/music owner that registers a Lightning node with Wavlake gran
 
 Upon receipt, Wavlake updates the tip total for the track and factors that into the track's overall ranking on the site (in addition to the track's play count).
 
-{% hint style="info" %}
-Fees are collected automatically by the site by redirecting tips to Wavlake until the fee amount for the current period has been redeemed. After that payments are directed back to the artist until the next fee period.
-
-NOTE: This feature will not be live during the testing phase of the site.
-{% endhint %}
-
 ## Plays
 
 Wavlake is designed to give all visitors the ability to easily discover and listen to great music without necessarily having to pay with a Lightning wallet. At the same time, we want to give artists a fair trade in value for their work.
@@ -32,3 +26,8 @@ One way to think about this mechanism is to compare it to a jukebox, except on t
 
 The "Power" bar for each track gives an indication of how many free plays remain for the track. When the bar is empty, all the free plays have been used and someone must tip the track in order to unlock it again.
 
+## Fees
+
+Wavlake takes **no fees** on any tips _if you have connected your own node_ to the site.
+
+For artists/labels using the [Lightning address](https://lightningaddress.com) feature, the site will collect 1 sat for every 21 sats tipped by users. This comes out to approximately a **4.7% fee**. The fee helps cover forwarding costs for tips and maintain the site.
