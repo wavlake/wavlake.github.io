@@ -116,9 +116,9 @@ Log into the ThunderHub client and click on the "Tools" section in the left-hand
 
 On the Tools page, you should see a "Bakery" section. Click on the "Bake" button and you will see a list of options appear.
 
-Slide the following options to "Yes" (a visual guide is below): Create Invoices, Get Invoices, Get Wallet Info, Sign Messages, Verify Messages. Then click "Bake new macaroon".
+Slide the following options to "Yes" (a visual guide is below): Create Invoices, Get Invoices, Get Wallet Info. Then click "Bake new macaroon".
 
-![  ](../.gitbook/assets/thub2.png)
+![](<../.gitbook/assets/Screen Shot 2022-04-01 at 11.12.46 PM.png>)
 
 ThunderHub should display two versions of your newly baked macaroon. We want to use the "HEX" version. Copy the text for the HEX version of your macaroon and store it on your notepad.
 
@@ -129,8 +129,6 @@ lncli bakemacaroon \
 uri:/lnrpc.Lightning/AddInvoice \
 uri:/lnrpc.Lightning/GetInfo \
 uri:/lnrpc.Lightning/LookupInvoice \
-uri:/signrpc.Signer/SignMessage \
-uri:/signrpc.Signer/VerifyMessage \
 uri:/invoicesrpc.Invoices/SubscribeSingleInvoice
 ```
 
