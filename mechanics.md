@@ -26,7 +26,7 @@ Wavlake is designed to give all visitors the ability to easily discover and list
 
 Every track starts with a number of free plays. This is set by the artist as high or low as they like (we recommend starting with 99). Once people start listening to the track on the site, the free plays tick down for each play that lasts more than 30 seconds. When the number of free plays for a track reaches 0, no one is able to listen to that track on the site anymore.
 
-The way to unlock free plays is to send the artist a tip for it. Currently, the price per play is 100 sats (or about $0.04 at the time of this writing). So for every 100 sats a listener tips a track, it unlocks the corresponding number of free plays for both themselves and the public.
+The way to unlock free plays is to send the artist a tip for it. Currently, the price per play is 21 sats (or about $0.01 at the time of this writing). So for every 21 sats a listener tips a track, it unlocks the corresponding number of free plays for both themselves and the public.
 
 One way to think about this mechanism is to compare it to a jukebox, except on the internet. You put a coin in the jukebox, it plays a song for everyone in the bar. In the case of Wavlake, a listener's payment not only helps support the artist directly but also helps promote the track to other listeners because tips will push the track's ranking higher.
 
