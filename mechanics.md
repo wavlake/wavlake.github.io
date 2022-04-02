@@ -30,4 +30,4 @@ The "Power" bar for each track gives an indication of how many free plays remain
 
 Wavlake takes **no fees** on any tips _if you have connected your own node_ to the site.
 
-For artists/labels using the [Lightning address](https://lightningaddress.com) feature, the site will collect 1 sat for every 21 sats tipped by users. This comes out to approximately a **4.7% fee**. The fee helps cover forwarding costs for tips and maintain the site.
+For artists/labels using the [Lightning address](https://lightningaddress.com) feature, the site will collect 1 sat for every 21 sats tipped by users. This comes out to approximately a **4.7% fee**. The fee helps 1) cover forwarding costs for tips and 2) contribute to maintenance of the site.
