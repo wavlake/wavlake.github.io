@@ -8,3 +8,4 @@
   * [Voltage](artist-onboarding/voltage.md)
   * [Umbrel](artist-onboarding/umbrel.md)
   * [Raspiblitz](artist-onboarding/raspiblitz.md)
+* [License Agreement](license-agreement.md)
