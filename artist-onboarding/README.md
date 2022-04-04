@@ -4,6 +4,8 @@ The following pages describe how to connect to Wavlake so you can start listing 
 
 Once you are connected to the site, consider [opening a channel](../connect.md) to the Wavlake Lightning node to help route payments to your node.
 
+Artists are also required to sign a copy of our [License Agreement](../license-agreement.md) before uploading tracks.
+
 If you come across an issue, please reach out at contact@wavlake.com
 
 {% content-ref url="lightning-address.md" %}
