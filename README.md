@@ -10,3 +10,5 @@ Wavlake is a Bitcoin-powered music platform that allows artists to receive direc
 Tracks on the homepage are ranked according to the number of plays and the number of tips it has received. Users who like a song and want to support the artist can send a tip directly to the artist with a Lightning payment. This not only helps pay for the music but also boosts the track's ranking on the site.
 
 Wavlake is currently in alpha release mode and changing rapidly. We will do our best to keep these docs up to date but there may be some divergences between the live site and what is documented here.
+
+For more, find us on [Twitter](https://twitter.com/wavlake) or join the conversation in our [Telegram](https://t.me/wavlake) channel. You also can email us at contact@wavlake.com
