@@ -12,6 +12,8 @@ Every artist/label/music owner that registers a Lightning node with Wavlake gran
 
 Upon receipt, Wavlake updates the tip total for the track and factors that into the track's overall ranking on the site (in addition to the track's play count).
 
+Music creators also have the option of receiving payments to a [Lightning address](https://lightningaddress.com). This option does not require a node and can be a simpler way to connect to Wavlake. Payments are still automatically forwarded from listeners to artists with this option, but there is a [fee](mechanics.md#fees) to use this feature.
+
 ## Plays
 
 Wavlake is designed to give all visitors the ability to easily discover and listen to great music without necessarily having to pay with a Lightning wallet. At the same time, we want to give artists a fair trade in value for their work.
