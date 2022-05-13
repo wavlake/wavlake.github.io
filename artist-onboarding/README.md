@@ -8,6 +8,10 @@ Artists are also required to sign a copy of our [License Agreement](../license-a
 
 If you come across an issue, please reach out at contact@wavlake.com
 
+{% hint style="info" %}
+Note: There is a 20MB file size limit for each MP3 upload
+{% endhint %}
+
 {% content-ref url="lightning-address.md" %}
 [lightning-address.md](lightning-address.md)
 {% endcontent-ref %}
