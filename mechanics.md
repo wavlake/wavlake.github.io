@@ -12,7 +12,7 @@ Every artist/label/music owner that registers a Lightning node with Wavlake gran
 
 Upon receipt, Wavlake updates the tip total for the track and factors that into the track's overall ranking on the site (in addition to the track's [play count](mechanics.md#plays)).
 
-Music creators also have the option of receiving payments to a [Lightning address](https://lightningaddress.com). This option does not require a node and can be a simpler way to connect to Wavlake. Payments are still automatically forwarded from listeners to artists with this option, but there is a [fee](mechanics.md#fees) to use this feature.
+Music creators also have the option of receiving payments to a [Lightning address](https://lightningaddress.com/). This option does not require a node and can be a simpler way to connect to Wavlake. Payments are still automatically forwarded from listeners to artists with this option, but there is a [fee](mechanics.md#fees) to use this feature.
 
 ## Plays
 
@@ -32,4 +32,4 @@ The "Power" bar for each track gives an indication of how many free plays remain
 
 Wavlake takes **no fees** on any tips _if you have connected your own node_ to the site.
 
-For artists/labels using the [Lightning address](https://lightningaddress.com) feature, the site will collect 1 sat for every 21 sats tipped by users. This comes out to approximately a **4.7% fee**. The fee helps 1) cover forwarding costs for tips and 2) contribute to maintenance of the site.
+For artists/labels using the [Lightning address](https://lightningaddress.com/) feature, the site will collect 1 sat for every 21 sats tipped by users. This comes out to approximately a **4.7% fee**. The fee helps 1) cover forwarding costs for tips and 2) contribute to maintenance of the site.

@@ -1,16 +1,20 @@
-# Raspiblitz
+# myNode
 
 ## Overview
 
-**NOTE: This guide has not been thoroughly tested. Please make sure to back up any files you plan to change/edit and proceed with caution.**
+**NOTE: This guide is still undergoing testing. Please proceed with caution and let us know if you run into any issues.**
 
-This guide will walk you through the steps required to connect your Raspiblitz/LND node to Wavlake.
+This guide will walk you through the steps required to connect your myNode/LND node to Wavlake.
 
 The steps below will help you to 1) identify your LND's hostname and port, 2) generate/download a tls.cert file, and 3) generate/download a custom macaroon, all of which will give Wavlake limited permissions to create and check invoices directly on your node on your behalf. We advise keeping a notepad open on your computer while walking through this guide to keep track of the items you will need to register your server.
 
 ## 1. Hostname and Port
 
-In order to interact with your node, Wavlake needs a publicly accessible address to reach it. You can use the mobile wallet connection feature to connect to Wavlake. Just use the "ZAP\_ANDROID" option as outlined in the [Raspiblitz docs](https://github.com/rootzoll/raspiblitz#mobile-mobile-wallet-apps-smartphone) to identify the hostname and port of your LND process. If you can't see the hostname and port in plain text, try running `sudo cat /mnt/hdd/tor/lndrpc/hostname` in your terminal.
+In order to interact with your node, Wavlake needs a publicly accessible address to reach it. You can use the mobile wallet connection feature to connect to Wavlake. Scroll down to "Remote Access Services" and click "Tor Services".
+
+Then click "Show Onion URLs". Scroll down to LND API (gRPC) and copy Address and Port.
+
+![](<../.gitbook/assets/2022-05-22 21.40.12.jpg>) ![](<../.gitbook/assets/2022-05-22 21.40.28.jpg>)
 
 In the end, you should have something that looks like this:
 
@@ -22,22 +26,11 @@ NOTE: You will not need the colon ":" when entering your node details into Wavla
 
 ## 2. TLS Cert
 
-We now need to add the onion address identified in the last step to the LND conf so it can generate a new cert file for us with this hostname included in it.
+The certificate file helps ensure that the connection between Wavlake and your myNode is [relatively secure](https://docs.lightning.engineering/lightning-network-tools/lnd/safety#tls). A certificate file is automatically generated when you first set up your myNode.
 
-Open the LND conf file by running `sudo nano /mnt/hdd/lnd/lnd.conf`. You should see a line in the file that says "tlsextradomain=" and a value. Add a new line below this with the new onion address we created in the last step. The line should look something like:\
+On your MyNode home page under the "Lightning" section, click "Wallet". Then click "Download" next to "TLS Certification". Keep track of this file on your local machine.
 
-
-```
-tlsextradomain=jfdsaoj930nglamljafafklajsdkfjdskafdsa9.onion
-```
-
-There also is a script you can run on the Raspi to generate a new cert
-
-`sudo /home/admin/config.scripts/lnd.newtlscert.sh`
-
-If that does not work, you can restart LND with `sudo systemctl restart lnd`. This also should create a new cert file.\
-\
-Download the new cert.
+![](<../.gitbook/assets/2022-05-22 21.42.05.jpg>)
 
 ## 3. Macaroon
 
