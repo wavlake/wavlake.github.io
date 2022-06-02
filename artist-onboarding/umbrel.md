@@ -22,7 +22,7 @@ Once there, open the drop down menu and select "lndconnect gRPC Tor" from the li
 
 ![](../.gitbook/assets/umbrel-connect2.png)
 
-On the page, you should see a URL with a long string that ends in ".onion". Copy the all the text in between the "lndconnect://" prompt and the "?" sign.
+On the page, you should see a URL with a long string that ends in ".onion". Copy all the text in between the "lndconnect://" prompt and the "?" sign.
 
 ![](<../.gitbook/assets/umbrel-connect3 (1).png>)
 
