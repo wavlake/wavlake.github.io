@@ -52,7 +52,9 @@ We believe an open base layer for content will be more beneficial for artists an
 
 #### How much does Wavlake collect in fees from boosts?
 
-Wavlake takes 10% from every boost and message boost to an artist. The exact amount can be viewed per boost/message in the [Activity](https://studio.wavlake.com/stats) section in Studio.
+Wavlake takes 10% from every track boost and message boost. The exact amount can be viewed per boost/message in the [Activity](https://studio.wavlake.com/stats) section in Studio.
+
+_Coming soon: stats for fans_
 
 #### Are there any fees for funding or withdrawals?
 
